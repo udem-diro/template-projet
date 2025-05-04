@@ -1,0 +1,83 @@
+site_name: IFT3150 - Template
+site_description: Template de site web pour le cours IFT3150
+site_author: Louis-Edouard Lafontant
+site_url: https://ift3150-template.github.io
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+    
+copyright: "&copy; 2025 <b>DIRO</b> &ndash; Template pour le cours IFT3150/IFT4055 <br>Département d'informatique et de recherche opérationnelle <br>Université de Montréal"
+
+repo_name: ift3150-template
+repo_url: https://github.com/ift3150-template/ift3150-template.github.io
+# edit_uri: edit/main/docs/
+
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/udem-diro/template-projet
+#       name: squidfunk on Fosstodon
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.keys
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2
+
+
+extra_css:
+  - css/no-sidebar.css
+
+nav:
+  - Vue d'ensemble: index.md
+  - Suivi: suivi.md
+  - Études préliminaires: analysis.md
+  - Conception: conception.md
+  - Tests & Évaluation: evaluation.md
+  - Résultats: results.md
+  - References: references.md

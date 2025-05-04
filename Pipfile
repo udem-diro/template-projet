@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocs-material-extensions = "*"
+mkdocs-mermaid2-plugin = "*"
+pymdown-extensions = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
