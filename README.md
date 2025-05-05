@@ -13,7 +13,7 @@ Assurez-vous d’avoir les outils suivants installés :
 
 1. Clonez ce dépôt :
 ```bash
-git clone https://github.com/ift3150-template/ift3150-template.github.io.git
+git clone git@github.com:udem-diro/template-projet.git
 cd ift3150-template
 ```
 
