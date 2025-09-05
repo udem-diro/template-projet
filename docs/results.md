@@ -7,7 +7,3 @@
 ## Démonstration
 
 - Inclure des captures d'écran ou des démonstrations du système.
-
-## Bilan
-
-- Évaluer la réalisation des objectifs initiaux.

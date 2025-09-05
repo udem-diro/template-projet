@@ -6,7 +6,7 @@ Ce projet est un template de site web pour le cours IFT3150, construit avec [MkD
 
 Assurez-vous d’avoir les outils suivants installés :
 
-- Python **3.8** ou plus récent
+- Python **3.11** ou plus récent
 - `pip` (gestionnaire de paquets Python)
 
 ## Installation
