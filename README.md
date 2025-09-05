@@ -11,13 +11,12 @@ Assurez-vous d’avoir les outils suivants installés :
 
 ## Installation
 
-1. Clonez ce dépôt :
+1. Clonez ce dépôt (optionnel) :
 ```bash
 git clone git@github.com:udem-diro/template-projet.git
-cd ift3150-template
 ```
 
-2. Installez les dépendances :
+2. Installez les dépendances (dans votre répertoire) :
 ```bash
 pip install -r requirements.txt
 ```
