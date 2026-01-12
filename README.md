@@ -1,6 +1,12 @@
-# Template de site web pour IFT3150
+# Template de site web pour IFT3150 (Projet informatique)
 
-Ce projet est un template de site web pour le cours IFT3150, construit avec [MkDocs](https://www.mkdocs.org/) et le thème [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+Ce répertoire contient un template de site web de projet pour le cours IFT3150, construit avec [MkDocs](https://www.mkdocs.org/) et le thème [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+
+Ce site sert à :
+
+- documenter le projet tout au long de la session,
+- structurer les livrables (description, suivi, résumé, rapport),
+- centraliser le travail de l’équipe dans un format clair et accessible.
 
 ## Prérequis
 
@@ -23,42 +29,59 @@ pip install -r requirements.txt
 
 ## Utilisation
 
-### Développement local
+Vous devez au minimum :
 
-Pour lancer un serveur de développement local :
+1. Modifier les pages (fichiers) Markdown dans le dossier `docs/`
+2. Compléter les sections prévues (ex: description, suivi, résumé, rapport)
+3. Adapter le contenu à votre projet
+
+### Travailler en local (sur votre poste)
+
+Pour lancer un serveur local avec rechargement automatique :
 
 ```bash
-mkdocs serve
+mkdocs serve --livereload
 ```
 
-Le site sera accessible à l'adresse [http://127.0.0.1:8000](http://127.0.0.1:8000)
+Le site sera accessible à l'adresse [http://127.0.0.1:8000](http://127.0.0.1:8000).
 
-### Construction du site
+> Après chaque modification de fichiers dans `/docs`, le site local est automatiquement mis à jour.
 
-Pour construire le site :
+### Construction du site (optionnel)
+
+Pour générer la version statique du site :
 
 ```bash
 mkdocs build
 ```
 
-Les fichiers générés seront dans le dossier `site/`.
+Les fichiers générés seront placés dans le dossier `site/`.
 
-### Déploiement
+### Déployer ou mettre à jour le site (public)
 
-Pour déployer sur GitHub Pages :
+Pour déployer le site sur GitHub Pages :
 
 ```bash
 mkdocs gh-deploy
 ```
 
-> Cette commande pousse automatiquement le contenu du site sur la branche gh-pages.
+> Cette commande pousse automatiquement le contenu du site sur la branche `gh-pages`.
 
 ## Structure du projet
 
-- `docs/` : Contient tous les fichiers Markdown du site
-- `mkdocs.yml` : Configuration de MkDocs
-- `requirements.txt` : Dépendances Python
-- `site/` : Site généré (créé lors de la construction)
+```sh
+.
+├── docs/                # Contenu du site (Markdown)
+│   ├── index.md         # Vue d’ensemble du projet
+│   ├── suivi.md         # Suivi détaillé (hebdo / bi-hebdo)
+│   ├── resume.md        # Résumé final du projet
+│   └── rapport/         # Rapport final (sections)
+├── mkdocs.yml           # Configuration du site et navigation
+├── requirements.txt     # Dépendances Python
+└── site/                # Site généré (créé lors de la construction)
+```
+
+> Tout le contenu du projet se trouve dans `docs/`.
 
 ## Personnalisation
 
@@ -70,6 +93,6 @@ mkdocs gh-deploy
 
 Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
-🙋‍♀️ Questions ou problèmes ?
+## 🙋‍♀️ Questions ou problèmes ?
 
-En cas de problème, n'hésitez pas à ouvrir une issue sur GitHub ou à poser des questions au responsable du cours.
+En cas de problème, n'hésitez pas à ouvrir une issue sur GitHub ou à poser des questions au coordonnateur du cours.

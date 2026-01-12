@@ -1,48 +1,56 @@
+---
+title: Suivi du projet
+---
+
+<style>
+    @media screen and (min-width: 76em) {
+        .md-sidebar--primary {
+            display: none !important;
+        }
+    }
+</style>
+
 # Suivi de projet
 
-## Semaine 1
-
-??? note "Mettre en place l'environnement"
-    - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    - [ ] Vestibulum convallis sit amet nisi a tincidunt
-        * [x] In hac habitasse platea dictumst
-        * [x] In scelerisque nibh non dolor mollis congue sed et metus
-        * [ ] Praesent sed risus massa
-    - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
-
-!!! info "Notes"
-    - Il est possible que nous révisions les exigences après le prototypage
-
-!!! warning "Difficultés rencontrées"
-    - Le plugin Mermaid n'était pas reconnu : confusion entre `mkdocs-mermaid2-plugin` (pip) et `mermaid2` (plugin name)
-        - Résolu après nettoyage et configuration correcte dans `mkdocs.yml`
-
-!!! abstract "Prochaines étapes"
-    - Démarrer l’analyse du problème
-    - Créer la structure de `etudes_preliminaires.md`
+> :bulb: Cette page documente l’évolution du projet dans le temps.
+> Elle sert à rendre visibles les décisions, ajustements et apprentissages.
+> Les entrées peuvent être hebdomadaires ou bi-hebdomadaires.  
+> N'oubliez pas d’effacer ou de mettre en commentaires les notes (`>`) avant la remise finale.
 
 ---
 
-## Semaine 2
+## Semaine 1 (12–18 janvier)
 
-## Semaine 3
+### Objectifs de la période
+- Clarifier la problématique
+- Explorer les solutions existantes
+- Produire un premier prototype conceptuel
 
-## Semaine 4
+### Travail réalisé
 
-## Semaine 5
+!!! abstract "Avancement"
+    - [x] Analyse de solutions existantes
+        - Comparaison de trois outils similaires
+    - [x] Prototype basse fidélité (Figma)
+    - [ ] Validation utilisateur
+        - Reportée à la semaine suivante
 
-## Semaine 6
+### Décisions et ajustements
 
-## Semaine 7
+> À compléter uniquement si des choix structurants ont été faits
+> ou si l’orientation du projet a évolué.
 
-## Semaine 8
+!!! info "Décisions"
+    - Abandon de l’approche X jugée trop complexe
+    - Reformulation de la problématique suite aux premières analyses
 
-## Semaine 9
+### Difficultés rencontrées
 
-## Semaine 10
+> À compléter uniquement si des obstacles ont eu un impact réel
+> sur l’avancement du projet.
 
-## Semaine 11
-
-## Semaine 12
-
-## Semaine 13
+!!! warning "Difficultés"
+    - Problème de configuration du plugin Mermaid
+        - Confusion entre `mkdocs-mermaid2-plugin` (pip)
+          et `mermaid2` (nom du plugin)
+        - Résolu après nettoyage et configuration correcte dans `mkdocs.yml`
