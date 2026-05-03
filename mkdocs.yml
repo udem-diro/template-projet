@@ -72,12 +72,6 @@ plugins:
 nav:
   - Vue d'ensemble: index.md
   - Suivi: suivi.md
-  - Résumé: resume.md
-  - Rapport:
-    - Introduction: rapport/index.md
-    - Études préliminaires: rapport/analyse.md
-    - Conception: rapport/conception.md
-    - Implémentation: rapport/implementation.md
-    - Tests & Évaluation: rapport/evaluation.md
-    - Discussion: rapport/resultat.md
-    - Références: rapport/references.md
+  - Études préliminaires: analyse.md
+  - Réalisation: conception.md
+  - Évaluation: evaluation.md

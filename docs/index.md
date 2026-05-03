@@ -13,7 +13,7 @@ title: Vue d'ensemble du projet
 # Vue d'ensemble du projet
 
 !!! info "Informations générales"
-    **Session**: Hiver 2026  
+    **Session**: Été 2026  
     **Auteur(s)**: <!-- Nom de chaque membre (matricule)  -->  
     **Thème(s)**: <!-- Thèmes principaux abordés dans le projet  -->  
     **Superviseur(s)**: <!-- Nom du superviseur (affiliation)  -->  
@@ -57,6 +57,6 @@ title: Vue d'ensemble du projet
 
 | Activités                      | Début   |   Fin   | Livrable                            | Statut      |
 |--------------------------------|---------|---------|-------------------------------------|-------------|
-| Ouverture de projet            | 12 jan. | 12 jan. | Proposition de projet               | ✅ Terminé  |
-| Études préliminaires           | 12 jan. | 23 jan. | Document d'analyse                  | 🔄 En cours |
-| Présentation + Rapport         | 17 avr. | 30 avr. | Présentation + Rapport              | ⏳ À venir  |
+| Ouverture de projet            | 4 mai   | 15 mai  | Proposition de projet               | ✅ Terminé  |
+| Études préliminaires           | 4 mai   | 22 mai  | Document d'analyse                  | 🔄 En cours |
+| Présentation + Rapport         | 7 aout  | 14 aout | Présentation + Rapport              | ⏳ À venir  |

@@ -1,2 +1,0 @@
-# Études préliminaires
-
