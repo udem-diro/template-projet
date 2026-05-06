@@ -74,8 +74,9 @@ mkdocs gh-deploy
 ├── docs/                # Contenu du site (Markdown)
 │   ├── index.md         # Vue d’ensemble du projet
 │   ├── suivi.md         # Suivi détaillé (hebdo / bi-hebdo)
-│   ├── resume.md        # Résumé final du projet
-│   └── rapport/         # Rapport final (sections)
+│   ├── analyse.md       # Analyses, recherches et explorations
+│   ├── realisation.md   # Réalisation (conception + implementation)
+│   └── evaluation.md    # Validation, résultats et analyse critique
 ├── mkdocs.yml           # Configuration du site et navigation
 ├── requirements.txt     # Dépendances Python
 └── site/                # Site généré (créé lors de la construction)
